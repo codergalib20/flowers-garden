@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-main {
+  @apply container mx-auto px-3;
+}
+.nav-link {
+  @apply text-lg font-medium ml-10 text-red-50;
+}
+.btn {
+  @apply py-4 px-8 inline-block font-bold;
+}
+.btn-pink {
+  @apply text-red-50 transition-all duration-300;
+  background: #cfacb0;
+}
+.btn-black {
+  @apply text-red-50 transition-all duration-300;
+  background: #131212;
+}
+.btn-pink:hover {
+  background: #ecc5c9;
+}
+.topFlowersCard:hover h3 {
+  color: #cfacb0 !important;
+  transition: all 0.4s linear;
+}
+
+/* // Header Seection  */
+
+#sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s linear;
+  animation: smoothScroll 1s forwards;
+  background: #cfacb0;
+  z-index: 1000000000000;
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-142px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
