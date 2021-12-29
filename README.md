@@ -15,8 +15,12 @@ Code in github || [Code in github](https://github.com/codergalib20/flowers-garde
 
 ```
 npx create-react-app my-app --template typescript
+cd my-app
+npm start
 
 # or
 
 yarn create react-app my-app --template typescript
+cd my-app
+npm start
 ```
